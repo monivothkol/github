@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
+    text-transform: uppercase;
 }
 nav{
     margin-top: 1.5%;
@@ -38,20 +40,24 @@ a:hover{
     margin-left: 42.5%;
 }
 #logo{
-    width: 10%;
+    width: 100px;
     float: left;
-    margin-top: -30px;
+    margin-top: -20px;
     margin-left: 11%;
     background-color: white;
     position: absolute;
 }
 
-.container{
+#event-container{
     width: 100%;
     margin-top: 2.5rem;
-    height: 73rem;
+    height: 125.5rem;
     box-sizing: border-box;
     position: relative;
+}
+.mid{
+    height: 60rem;
+    background-color: #ffc107;
 }
 .bg-top{
     background: url(./pic/bg.jpg);
@@ -68,7 +74,7 @@ a:hover{
     width: 80%;
     top: 0;
     margin-left: 10%;
-    /* position: absolute; */
+
 }
 .iso{
     width: 32%;
@@ -83,13 +89,181 @@ a:hover{
 .bg-top, .bg-bottom{
     z-index: -1;
 }
+.h2text, .h2text2{
+    margin-top: 0;
+    position: absolute;
+    top: 0;
+    left: 15%;
+    padding-top: 1.5%;
+    padding-bottom: 0%;
+    margin-top: 31%;
+    font-size: 135%;
+}
+.h2text2{
+    margin-top: 103%;
+}
 
 h2{
-	background-color: white;
-    width: 15rem;
-    margin-left: 30px;
-    margin-top: 50px;
+    background-color: white;
+    width: 25%;
+    height: 2%;
     float: left;
+    text-transform: uppercase;
     text-align: center;
-    padding: 10px 100px;
+}
+p{
+    margin-top: 110%;
+    margin-left: 20%;
+    top: 0;
+    position: absolute;
+    color: white;
+    text-transform: capitalize;
+    width: 15rem;
+}
+.cover-bottle, .bottle{
+    position: absolute;
+    width: 35%;
+    top: 0;
+    margin-left: 45%;
+    margin-top: 25%;
+    /* transition: 1s; */
+}
+/* .cover-bottle:hover{
+    background-size: 250%;
+} */
+.bottle{
+    margin-top: 55%;
+}
+.singha1, .singha2, .reserve{
+    position: absolute;
+    width: 35%;
+    top: 0;
+    margin-left: 10%;
+    margin-top: 40%;
+    padding: 0;
+    
+}
+.singha1{
+    background-color: white;
+}
+.reserve{
+    margin-top: 70%;
+}
+
+.event-button{
+   padding: 10px 35px;
+   position: absolute;
+   margin-left: calc(100% - 50vw);
+   margin-top: -21%;
+   border-radius: 5px;
+   border-style: solid;
+   border-color: white;
+   text-decoration: none;
+}
+.event-button:hover{
+    border-style: none;
+    color: white;
+}
+
+.exp{
+    background: url(./pic/bg2.jpg);
+    background-position: bottom;
+    padding-bottom: 0.0001rem;
+    background-repeat: no-repeat;
+}
+#exp-container1{
+    width: 70%;
+    height: 23.1rem;
+    /* background: blue; */
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 5rem;
+}
+.exp-container2{
+    width: 65%;
+    height: 23.1rem;
+    margin-left: 17%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 5rem;
+}
+.exp-container3{
+    width: 70%;
+    height: 23.1rem;
+    /* background: blue; */
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5.4rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.left, .right{
+    width: 50%;
+    height: 100%; 
+}
+.left{
+    flex: 1.5;
+}
+.right{
+        /* background-color: yellow; */
+        margin-left: 1rem;
+        margin-top: 1rem;
+        flex:1;
+        width: 5rem;
+    }
+.mid-left, .mid-right{
+    background-color: none;
+    width: 50%;
+    height: 100%;
+    flex:1;
+    text-align: end;
+}
+.mid-right{
+    background-color: royalblue;
+}
+.mid-left{
+    flex: 0.5;
+}
+
+.bottom-left, .bottom-right{
+    width: 50%;
+    height: 100%;
+    flex:1.38;
+}
+.bottom-left{
+    flex:1.5;
+}
+.btn, .btn2{
+    background-color: none;
+    color: black;
+    padding: .5rem 2rem;;
+    width: 10rem;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn:hover{
+    color: white;
+    background-color: #ffc107;
+}
+.btn2{
+    background-color: none;
+    border-color: white;
+    color: white;
+
+}
+.btn2:hover{
+        background-color: white;
+        color: #ffc107;
 }
